@@ -14,7 +14,37 @@ To discover open ports on devices in the local network and understand network ex
 3. Performed TCP SYN scan.
 4. Identified open ports and services.
 5. Analyzed security risks.
+## Commands Used
 
+### Check Nmap Version
+
+```bash
+nmap --version
+```
+
+### Find Local IP Address
+
+```bash
+hostname -I
+```
+
+### Perform TCP SYN Scan
+
+```bash
+sudo nmap -sS 192.168.1.0/24
+```
+
+### Service Version Detection
+
+```bash
+sudo nmap -sV 192.168.1.1
+```
+
+### Save Scan Results
+
+```bash
+sudo nmap -sV 192.168.1.1 -oN scan_results.txt
+```
 ## Scan Results
 
 | Port | Service |
