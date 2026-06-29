@@ -61,3 +61,5 @@ Nmap helped identify exposed services on the local network and highlighted poten
 ## Screenshot
 
 ![image alt](https://github.com/geetanjalikumari266/nmap-netwok-scan/blob/61c95d315dd42e5ab06e9b5142fc197ed836f9e4/IMG-20260629-WA0011.jpg)
+
+![image alt](https://github.com/geetanjalikumari266/nmap-netwok-scan/blob/1c95439c0baa635ff7523f59fdf51ad6e6844101/IMG-20260629-WA0009.jpg)
