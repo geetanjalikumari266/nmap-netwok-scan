@@ -31,19 +31,13 @@ hostname -I
 ### Perform TCP SYN Scan
 
 ```bash
-sudo nmap -sS 192.168.1.0/24
-```
-
-### Service Version Detection
-
-```bash
-sudo nmap -sV 192.168.1.1
+sudo nmap -sS 192.168.1.17/24
 ```
 
 ### Save Scan Results
 
 ```bash
-sudo nmap -sV 192.168.1.1 -oN scan_results.txt
+sudo nmap -sV 192.168.17.24 -oN scan_results.txt
 ```
 ## Scan Results
 
