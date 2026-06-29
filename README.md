@@ -57,3 +57,7 @@ The scan successfully identified open ports and services running on the target d
 
 Conclusion
 Nmap helped identify exposed services on the local network and highlighted potential security risks associated with open ports.
+
+##Screenshot
+
+![image alt](https://github.com/geetanjalikumari266/nmap-netwok-scan/blob/61c95d315dd42e5ab06e9b5142fc197ed836f9e4/IMG-20260629-WA0011.jpg)
