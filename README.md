@@ -1,14 +1,14 @@
 Task 1: Scan Your Local Network for Open Ports
 
-Objective
+Objective: 
 To discover open ports on devices in the local network and understand network exposure.
 
-Tools Used
-Nmap 7.95
-Kali Linux
+Tools Used: 
+Nmap 7.95,
+Kali Linux,
 Wireshark (Optional)
 
-Procedure
+Procedure:
 Verified Nmap installation.
 Identified local network range.
 Performed TCP SYN scan using Nmap.
