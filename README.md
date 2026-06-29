@@ -1,40 +1,33 @@
-Task 1: Scan Your Local Network for Open Ports
+# Task 1: Scan Your Local Network for Open Ports
 
-Objective: 
+## Objective
 To discover open ports on devices in the local network and understand network exposure.
 
-Tools Used: 
-Nmap 7.95,
-Kali Linux,
-Wireshark (Optional)
+## Tools Used
+- Nmap 7.95
+- Kali Linux
+- Wireshark (Optional)
 
-Procedure:
-Verified Nmap installation.
-Identified local network range.
-Performed TCP SYN scan using Nmap.
-Identified open ports and services.
-Analyzed potential security risks.
+## Procedure
+1. Verified Nmap installation.
+2. Identified local network range.
+3. Performed TCP SYN scan.
+4. Identified open ports and services.
+5. Analyzed security risks.
 
-Commands Used
-nmap --version
-sudo nmap -sS 192.168.1.0/24
-sudo nmap -sV 192.168.1.1
+## Scan Results
 
-Scan Results
-Port	Service
-22	SSH
-23	Telnet
-53	DNS
-80	HTTP
-1900	UPnP
+| Port | Service |
+|------|---------|
+| 22 | SSH |
+| 23 | Telnet |
+| 53 | DNS |
+| 80 | HTTP |
+| 1900 | UPnP |
 
-Security Risks
-SSH may be vulnerable to brute-force attacks if weak passwords are used.
-Telnet transmits data in plaintext and is considered insecure.
-DNS services can be abused if misconfigured.
-HTTP traffic is not encrypted.
-UPnP may expose devices to unauthorized access.
+## Conclusion
 
+The scan successfully identified open ports and services running on the target device.
 Result
 The scan successfully identified open ports and services running on the target device.
 
